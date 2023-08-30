@@ -1,3 +1,6 @@
+// Craindo usuários//
+
+
 class usuário
 class contato ( var id: String , var email: String)
 
@@ -15,7 +18,4 @@ contato.id = "Larissa"
 println (contato.id)
 contato.email = "larissa@gmail.com"
 println (contato.email)
-
-}
-
 
