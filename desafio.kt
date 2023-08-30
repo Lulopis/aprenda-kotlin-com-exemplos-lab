@@ -1,21 +1,13 @@
-// [Template no Kotlin Playground](https://pl.kotl.in/WcteahpyN)
+class usuário
+class contato ( val nome: String , var email: String)
 
-enum class Nivel { BASICO, INTERMEDIARIO, DIFICIL }
+fun main () {
 
-class Usuario
-
-data class ConteudoEducacional(var nome: String, val duracao: Int = 60)
-
-data class Formacao(val nome: String, var conteudos: List<ConteudoEducacional>) {
-
-    val inscritos = mutableListOf<Usuario>()
-    
-    fun matricular(usuario: Usuario) {
-        TODO("Utilize o parâmetro $usuario para simular uma matrícula (usar a lista de $inscritos).")
-    }
+var usuário = usuário ()
+var contato = contato ("José" , "josé@gmail.com")
+println (contato.nome)
+println (contato.email)
 }
 
-fun main() {
-    TODO("Analise as classes modeladas para este domínio de aplicação e pense em formas de evoluí-las.")
-    TODO("Simule alguns cenários de teste. Para isso, crie alguns objetos usando as classes em questão.")
-}
+
+
